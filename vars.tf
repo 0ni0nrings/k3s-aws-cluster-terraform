@@ -52,7 +52,7 @@ variable "vpc_id" {
 
 variable "my_public_ip_cidr" {
   type        = string
-  default     = "0.0.0.0/32"
+  default     = "0.0.0.0/32" # curl ifconfig.me
   description = "My public ip CIDR"
 }
 
