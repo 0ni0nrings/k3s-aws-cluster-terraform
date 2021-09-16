@@ -69,7 +69,7 @@ variable "vpc_subnets" {
 }
 
 variable "k3s_token" {
-  default     = "08c7d6aq22bzn61b1q04dbc81g8hedbazyte9d9c7dsfa0d0v883"
+  default     = "afwLKyAOmHjpeuDOkEc1Mdrn2iXDrDk7"
   type        = string
   description = "Override to set k3s cluster registration token"
 }
